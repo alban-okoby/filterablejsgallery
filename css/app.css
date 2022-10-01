@@ -1,8 +1,9 @@
     :root {
 
-    --white : #eee;
+    --white :#eee;
     --gray: #666;
     --coral: coral;
+    --black1: rgba(0, 0, 0, 0.772);
 }
 
 *{
@@ -82,3 +83,50 @@
 .image-container .image img:hover{
     transform: scale(1.2);
 }
+
+/* FOOTER SECTION */
+footer {
+    background-color: var(--black1);
+    color: var(--white);
+    padding: 5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-top: blueviolet solid 3px;
+
+}
+
+footer div {
+    padding: 1rem 3rem;
+    margin: 1rem .2rem;
+    max-width: 24rem;
+}
+footer div hr {
+    color : red;
+    padding: .2em;
+    margin: 1rem 0;
+    width: 14.5rem;
+    background: linear-gradient(to right, blueviolet, var(--coral))
+}
+footer h3 {
+    color: var(--coral);
+    font-size: 22px;
+}
+footer .copyright {
+    text-align: center;
+}
+footer .copyright h3 {
+    text-align: left;
+}
+footer .copyright a{
+    color: rgb(183, 62, 161);
+    font-size: 24px;
+}
+footer a img {
+    width: 40px; height: 40px; 
+    border-radius: 50%;
+    margin-top: 12px;
+    margin-bottom: -12px;
+    justify-self: baseline;
+}
+/* END FOOTER SECTION */
