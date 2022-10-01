@@ -1,38 +1,111 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP0 | contact </title>
+    <title>Magnifique liste filtrable avec html css et js</title>
+
+    <!-- magnific-popup css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/app.css">
+
 </head>
 <body>
 
-    <h1>Rose Armandine </h1>
-    <a href="images/photo-agrandie.PNG">
-        <img src="images/photo-mini.png" alt="">
-    </a>
+    <section class="gallery">
 
-    <h2>Mon expérience </h2>
-        <ul>
-            <li>De mai 2017 à juin 2019, formation à Microsoft®</li>
-            <li>De Avril 2020 à aujourd'hui, Formation web en alternance à CCDY-GEEKS</li>
-            <li>De decembre 2018 à aujourd'hui, parcours à l'université virtuelle de cote d'Ivoire.</li>
-            <li>De decembre 2018 à aujourd'hui, parcours à l'université virtuelle de cote d'Ivoire.</li>
-        </ul>
-        
-
-        <h2>Mes compétences </h2>
-        <ul>
-            <li>De mai 2017 à juin 2019, formation à Microsoft®</li>
-            <li>De Avril 2020 à aujourd'hui, Formation web en alternance à CCDY-GEEKS</li>
-            <li>De decembre 2018 à aujourd'hui, parcours à l'université virtuelle de cote d'Ivoire.</li>
-            <li>De decembre 2018 à aujourd'hui, parcours à l'université virtuelle de cote d'Ivoire.</li>
+        <ul class="controls">
+            <li class="buttons" data-filter="toutes">Toutes</li>
+            <li class="buttons" data-filter="sport">Sport</li>
+            <li class="buttons" data-filter="work">work</li>
+            <li class="buttons" data-filter="degustation">Dégustation</li>
+            <li class="buttons" data-filter="tourisme">Tourisme</li>
+            <li class="buttons" data-filter="autre">Autre</li>
         </ul>
 
-        <h2>Ma formation</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quis sequi accusantium cum dolor repudiandae in esse fugiat, tempora ipsum dolorem, voluptatum a aliquid eum nulla fuga iste sed voluptate!</p>
+        <article class="image-container">
+
+            <a href="images/athletic women.PNG" class="sport image">
+                <img src="images/athletic women.PNG" alt="">
+            </a>
+            <a href="images/athletic women.PNG" class="sport image">
+                <img src="images/athletic women.PNG" alt="">
+            </a>
+            <a href="images/athletic women.PNG" class="sport image">
+                <img src="images/athletic women.PNG" alt="">
+            </a>
+
+            <a href="images/fbNow1.PNG" class="work image">
+                <img src="images/fbNow1.PNG" alt="">
+            </a>
+            <a href="images/fbNow2.PNG" class="work image">
+                <img src="images/fbNow2.PNG" alt="">
+            </a>
+            <a href="images/fbNow1.PNG" class="work image">
+                <img src="images/fbNow1.PNG" alt="">
+            </a>
+            <a href="images/fbNow2.PNG" class="work image">
+                <img src="images/fbNow2.PNG" alt="">
+            </a>
+
+            <a href="images/food1.jpg" class="degustation image">
+                <img src="images/food1.jpg" alt="">
+            </a>
+            <a href="images/food2.jpg" class="degustation image">
+                <img src="images/food2.jpg" alt="">
+            </a>
+            <a href="images/food3.jpg" class="degustation image">
+                <img src="images/food3.jpg" alt="">
+            </a>
+            <a href="images/food4.jpg" class="degustation image">
+                <img src="images/food4.jpg" alt="">
+            </a>
+            <a href="images/food5.jpg" class="degustation image">
+                <img src="images/food5.jpg" alt="">
+            </a>
+            <a href="images/food6.jpg" class="degustation image">
+                <img src="images/food6.jpg" alt="">
+            </a>
+            
+            <a href="images/now-removebg-preview.png" class="tourisme image">
+                <img src="images/now-removebg-preview.png" alt="">
+            </a>
+            <a href="https://randomuser.me/api/portraits/women/44.jpg" class="tourisme image">
+                <img src="https://randomuser.me/api/portraits/women/44.jpt" alt="">
+            </a>
+            <img src="images/now-removebg-preview.png" alt="">
+            </a>
+            <a href="https://randomuser.me/api/portraits/women/45.jpg" class="tourisme image">
+                <img src="https://randomuser.me/api/portraits/women/45.jpt" alt="">
+            </a>
+
+            <a href="images/photo-agrandie.PNG" class="autre image">
+                <img src="images/photo-agrandie.PNG" alt="">
+            </a>
+            <a href="images/photo-agrandie.PNG" class="autre image">
+                <img src="images/photo-agrandie.PNG" alt="">
+            </a>
+            <a href="images/photo-agrandie.PNG" class="autre image">
+                <img src="images/photo-agrandie.PNG" alt="">
+            </a>
+            <a href="images/photo-agrandie.PNG" class="autre image">
+                <img src="images/photo-agrandie.PNG" alt="">
+            </a>
+
+        </article>
+
+    </section>
+
+<!-- my customize js -->
+<script src="js/app.js"></script>
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- magnific popup js cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
     
-
 </body>
 </html>
