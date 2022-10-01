@@ -1,12 +1,11 @@
     :root {
-
     --white :#eee;
     --gray: #666;
     --coral: coral;
     --black1: rgba(0, 0, 0, 0.772);
 }
 
-*{
+*{ 
     margin: 0; padding: 0;
     box-sizing: border-box; 
     text-transform: capitalize; 
@@ -130,3 +129,11 @@ footer a img {
     justify-self: baseline;
 }
 /* END FOOTER SECTION */
+
+@media screen and (max-width: 767px) {
+    
+.gallery-container .controls {
+    position: initial;   
+}
+
+}
