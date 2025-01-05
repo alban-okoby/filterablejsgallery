@@ -35,9 +35,9 @@ Un dossier image pour ajouter toutes les images qui se situent à la racine du p
 https://galerie.digitalsouag.com
 
 1. **Forkez puis clonez le projet pour commencer à le réaliser**
-   Une fois le projet forker, Clonez votree repository sur votre machine locale :
+   Une fois le projet forké, Clonez votre repository sur votre machine locale :
 
    ```bash
-   git clone https://github.com/votre-utilisateur/filterablejsgallery
-.git
+   git clone https://github.com/votre-utilisateur/filterablejsgallery.git
+   ```
 
