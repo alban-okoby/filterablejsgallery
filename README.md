@@ -20,11 +20,11 @@ Le projet est composé de :
 
 Le fichier HTML contient la structure de base de la page, avec une section dédiée à l'affichage des images et des boutons de filtrage.
 
-### `style`
+### `css`
 
 Dans le dossier style ajouter vos fichiers css pour gérer la mise en forme de la galerie. Il contient des styles pour la présentation des images, des boutons et des animations éventuelles pour rendre l'interaction plus fluide.
 
-### `script`
+### `js`
 
 Dans le dossier script ajouter vos fichiers javascript pour gérer la logique pour filtrer les images en fonction de la catégorie sélectionnée par l'utilisateur. Il utilise la méthode `addEventListener` pour écouter les clics sur les boutons de filtrage et appliquer ou supprimer les classes CSS des images.
 
